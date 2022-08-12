@@ -2,6 +2,10 @@
 
 public class example4 {
     public static void main(String[] args) {
-        System.out.println((25.* 3.5- 3.5 * 3.5)/(40.5-4.5));
+        float a=25.5f , b=3.5f , c=3.5f , d=3.5f ;
+        float e= 40.5f , f=4.5f;
+        
+        float result = (a*b-c*d)/(e-f);
+        System.out.println("result is :"+result);
     }
 }
